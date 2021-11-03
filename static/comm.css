@@ -1,0 +1,383 @@
+.ub {
+	box-sizing: border-box;
+	display: flex;
+}
+
+.ub-ver {
+	flex-direction: column;
+	box-orient: vertical;
+	height: 100%;
+}
+
+.ub-f1 {
+	box-flex: 1;
+	flex: 1;
+}
+
+.ub-f2 {
+	box-flex: 2;
+	flex: 2;
+}
+
+.ub-f3 {
+	box-flex: 3;
+	flex: 3;
+}
+
+.u-list-group {
+	box-sizing: border-box;
+	margin: 16rpx 0rpx 16rpx 0rpx;
+	background-color: #fff;
+}
+
+.u-list-panel {
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+	background-color: #fff;
+	padding: 10rpx 10rpx;
+}
+
+.u-list-group .u-list-item {
+	padding: 32rpx 32rpx;
+	box-sizing: border-box;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.u-list-group .u-list-image {
+	width: 130rpx;
+	height: 130rpx;
+	margin-right: 32rpx;
+}
+
+.u-list-group .u-list-item:last-child {
+	border-bottom: none;
+}
+
+.u-navbar {
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0rpx;
+	left: 0rpx;
+	width: 100%;
+	background-color: #fff;
+	z-index: 999;
+}
+
+.u-btn {
+	background-color: #dfdfdf;
+	text-align: center;
+	padding: 20rpx 48rpx;
+	display: inline-block;
+	margin: 10rpx;
+}
+
+.u-c86 {
+	color: #868686;
+}
+
+.u-ccc {
+	color: #ccc;
+}
+
+.u-cfff {
+	color: #fff;
+}
+
+.u-c999 {
+	color: #999;
+}
+
+.u-c777 {
+	color: #777;
+}
+
+.u-c555 {
+	color: #555;
+}
+
+.u-c333 {
+	color: #333;
+}
+
+.u-c000 {
+	color: #000;
+}
+
+.u-cr {
+	color: #FF004F;
+}
+
+.u-cblue {
+	color: #5E96F4;
+}
+
+.u-cgreen {
+	color: #34A853;
+
+;
+}
+
+.u-bcfff {
+	background-color: #fff;
+}
+
+.u-bc999 {
+	background-color: #999;
+}
+
+.u-bc777 {
+	background-color: #777;
+}
+
+.u-bc555 {
+	background-color: #555;
+}
+
+.u-bc333 {
+	background-color: #333;
+}
+
+.u-bcr {
+	background-color: #FF004F;
+}
+
+.u-bcblue {
+	background-color: #5E96F4;
+}
+
+.u-bcgreen{
+	background-color: #34A853;
+} 
+
+.u-fs48 {
+	font-size: 48rpx;
+}
+
+.u-fs44 {
+	font-size: 44rpx;
+}
+
+.u-fs42 {
+	font-size: 42rpx;
+}
+
+.u-fs40 {
+	font-size: 40rpx;
+}
+
+.u-fs38 {
+	font-size: 38rpx;
+}
+
+.u-fs36 {
+	font-size: 36rpx;
+}
+
+.u-fs34 {
+	font-size: 34rpx;
+}
+
+.u-fs32 {
+	font-size: 32rpx;
+}
+
+.u-fs30 {
+	font-size: 30rpx;
+}
+
+.u-fs28 {
+	font-size: 28rpx;
+}
+
+.u-fs26 {
+	font-size: 26rpx;
+}
+
+.u-fs24 {
+	font-size: 24rpx;
+}
+
+.u-fs22 {
+	font-size: 22rpx;
+}
+
+.u-fs20 {
+	font-size: 20rpx;
+}
+
+.u-br100 {
+	border-radius: 100%;
+}
+
+.u-br4 {
+	border-radius: 60rpx;
+}
+
+.u-br3 {
+	border-radius: 48rpx;
+}
+
+.u-br2 {
+	border-radius: 32rpx;
+}
+
+.u-br1 {
+	border-radius: 10rpx;
+}
+
+.u-tal {
+	text-align: left;
+}
+
+.u-tac {
+	text-align: center;
+}
+
+.u-tar {
+	text-align: right;
+}
+
+.u-strong {
+	font-weight: bold;
+}
+
+.u-mt10 {
+	margin-top: 10rpx;
+}
+
+.u-mt20 {
+	margin-top: 20rpx;
+}
+
+.u-mtb20 {
+	margin: 20rpx 0;
+}
+
+.u-ptb20 {
+	padding: 20rpx 0;
+}
+
+.u-ml10 {
+	margin-left: 10rpx;
+}
+
+.u-ml10 {
+	margin-left: 10rpx;
+}
+
+.u-ml20 {
+	margin-left: 20rpx;
+}
+
+.u-mr34 {
+	margin-right: 34rpx;
+}
+
+.u-lh1 {
+	line-height: 1;
+}
+
+.u-lh2 {
+	line-height: 1.6;
+}
+
+.u-must {
+	position: relative;
+	padding-left: 20rpx;
+}
+
+.u-must::after {
+	content: "*";
+	position: absolute;
+	left: 0rpx;
+	top: 5rpx;
+	font-size: 40rpx;
+	color: #ff4455;
+}
+
+.u-line {
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.u-userimg {
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 80rpx;
+	background-color: #dfdfdf;
+}
+
+.u-checkbox {
+	font-size: 42rpx;
+	color: #999;
+	content: "\e65f";
+}
+
+.u-checkbox::before {
+	content: "\e65f";
+}
+
+.u-checkbox.disable {
+	color: #dfdfdf;
+}
+
+.u-checkbox.active::before {
+	color: #ff4455;
+	content: "\e60b";
+}
+
+.u-placeholder {
+	color: #ccc;
+}
+
+.u-switch {
+	width: 80rpx;
+	height: 40rpx;
+	border-radius: 20rpx;
+	background-color: #dfdfdf;
+	position: relative;
+}
+
+.u-switch::after {
+	content: '';
+	position: absolute;
+	background-color: #fff;
+	border-radius: 100%;
+	width: 32rpx;
+	height: 32rpx;
+	left: 4rpx;
+	top: 4rpx;
+}
+
+.u-switch.active {
+	background-color: #36c65a;
+}
+
+.u-switch.active::after {
+	right: 4rpx;
+	left: auto;
+}
+
+.u-iconbtn {
+	padding: 20rpx;
+}
+
+.u-car {
+	margin: 24rpx 32rpx;
+	overflow-x: hidden;
+}
+
+.u-hidden {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.u-fw6{
+	font-weight: 600;
+}
